@@ -2,6 +2,7 @@ Create a pipeline in Jenkins:
 1. Go to Jenkins --> New Item --> "Enter Item name" --> select Pipeline tab --> Ok
 in the configure pipeline add the below code :
 
+'
 pipeline {
     agent any
     stages{
@@ -24,3 +25,4 @@ pipeline {
    }
   
 }
+'3
