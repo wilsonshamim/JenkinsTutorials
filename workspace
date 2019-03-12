@@ -1,0 +1,6 @@
+Any project or pipeline we create, it will be created under workspace folder under .Jenkins 
+
+any plugins will be installed under .jenkins/plugin folder.
+
+we can see all the jobs and logs under 
+\.jenkins\jobs\pipelines
