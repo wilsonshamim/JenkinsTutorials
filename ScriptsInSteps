@@ -43,3 +43,23 @@ pipeline{
     }
 }
 
+------------------------------------
+
+check if file exists in a step:
+
+  xx =  fileExists 'Test'
+                   println xx
+                }
+                
+ -----------------------
+ 
+ read a pom file:
+ 
+
+po = readMavenPom file: 'C:\\Users\\shamim\\eclipse-workspace\\MyMavenProj\\pom.xml'
+println "some properties : "+po.properties['project.build.sourceEncoding']
+println "groupId: " + po.groupId
+
+
+
+
